@@ -43,7 +43,7 @@ public class Main {
     }
 
     private static void initializeDifficult() {
-        System.out.println("------Препятствия: --------------");
+        System.out.println("------Препятствия: ---------------");
         for (int i = 0, j = 0; i + j < MAX_DIFFICULTS;) {
             switch (random.nextInt(2)) {
                 case 0 -> difficulty[i + j] = new Track("Дорожка " + ++i + "-я");
